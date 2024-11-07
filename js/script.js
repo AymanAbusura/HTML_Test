@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const sliderContainer = document.querySelector('.slider-container');
         const dottedLines = document.querySelectorAll('.DottedLine1, .DottedLine2, .DottedLine3, .DottedLine4, .DottedLine5');
         const testElements = document.querySelectorAll('.test');
-        const vectorElements = document.querySelectorAll('.vector');
+        const vectorElements = document.querySelectorAll('.vector .vector1-position');
 
         if (window.innerWidth <= 320) {
             sliderContainer.classList.add('slide');
@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             testElements.forEach(el => el.style.display = 'flex');
             vectorElements.forEach(el => el.style.display = 'flex');
+            
         }
     }
 
