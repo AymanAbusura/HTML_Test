@@ -13,14 +13,14 @@ html, body {
 }
 
 
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1920px) {
     .container {
         background-image: url('../assets/background.svg');
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
-        width: 1399px;
-        height: 1748px;
+        width: 1280px;
+        height: 832px;
         opacity: 1;
         backdrop-filter: blur(4px)
     }
